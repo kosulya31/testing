@@ -1,0 +1,457 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  height: 53px;
+  background: #212121;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu .menu_link {
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+.subheader {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  height: 84px;
+}
+
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  margin-top: 6px;
+  font-weight: 200;
+  font-size: 13px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.subheader .subheader_call {
+  text-align: right;
+  margin-top: 19px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  line-height: 12px;
+  text-align: right;
+  font-weight: normal;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+.promo {
+  min-height: 800px;
+  background: url("../img/uber_bg.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+.promo .promo_subheader {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.promo .promo_descr {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+.advantages {
+  margin: 22px 38px 60px 38px;
+}
+
+.advantages .advantages_header {
+  display: inline-block;
+  margin: 30px 514px 0 513px;
+  text-align: center;
+  width: 115px;
+  height: 20px;
+  background: #000000;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.advantages .advantages_subheader {
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.advantages .advantages_wrapper {
+  margin-top: 22px;
+}
+
+.advantages .advantages_wrapper .advantages_item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px;
+  width: 487px;
+}
+
+.advantages .advantages_wrapper .advantages_item .advantages_img {
+  position: absolute;
+  width: 116px;
+  height: 116px;
+  margin: 15px auto;
+}
+
+span {
+  color: #1EACC7;
+}
+
+.advantages .advantages_wrapper .advantages_item .advantages_descr {
+  display: inline-block;
+  height: 150px;
+  width: 371px;
+  font-weight: normal;
+  font-size: 17px;
+  margin: 0 120px;
+}
+
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 19px;
+  font-weight: normal;
+  font-size: 17px;
+  color: #222222;
+}
+
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+
+.mobile .row {
+  margin-top: 32px;
+}
+
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding: 92px;
+}
+
+.mobile_item_1 {
+  background: url("../icons/1.png") center center/cover no-repeat;
+}
+
+.mobile_item_2 {
+  background: url("../icons/2.png") center center/cover no-repeat;
+}
+
+.mobile_item_3 {
+  background: url("../icons/3.png") center center/cover no-repeat;
+}
+
+.mobile_item_4 {
+  background: url("../icons/4.png") center center/cover no-repeat;
+}
+
+.mobile_item_5 {
+  background: url("../icons/5.png") center center/cover no-repeat;
+}
+
+.mobile_item_6 {
+  background: url("../icons/6.png") center center/cover no-repeat;
+}
+
+.mobile_item_subtitle {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.mobile_item_plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 29px;
+  height: 29px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.uberX {
+  min-height: 898px;
+  padding: 48px 0 79px 0;
+  background: url("../icons/fourth/auto1.png") center center/cover no-repeat;
+}
+
+.uberX .label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.uberX .title {
+  color: #FFFFFF;
+}
+
+.uberX .subtitle {
+  color: #FFFFFF;
+}
+
+.uberX .choise_descr {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.require {
+  padding: 68px 0 84px 0;
+}
+
+.require_block {
+  margin: 33px 0;
+}
+
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+.require_title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1CA8C3;
+}
+
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+.require_list li {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.require_list li::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translate(-5px, -2px);
+          transform: translate(-5px, -2px);
+  width: 21px;
+  height: 20px;
+  background: url("../icons/fourth/check_blue.png") center center/cover no-repeat;
+}
+
+.require_descr {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #1ca8c3;
+}
+
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+.require .warning .require_list li:before {
+  background: url("../icons/fourth/check_red.png") center center/cover no-repeat;
+}
+
+.world {
+  min-height: 720px;
+  padding: 48px 0 79px 0;
+}
+
+.world .label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.world .title {
+  color: #FFFFFF;
+}
+
+.world .subtitle {
+  color: #FFFFFF;
+}
+
+.world .world_item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 30px;
+  width: 487px;
+}
+
+.world .world_item .world_img {
+  position: absolute;
+  background: width;
+  width: 1922px;
+  min-height: 720px;
+  margin: 15px auto;
+}
+/*# sourceMappingURL=style.min.css.map */

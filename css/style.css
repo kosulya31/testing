@@ -1,0 +1,195 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+header {
+    position: relative;
+}
+nav { /* черный блок для меню */
+    height: 53px;
+    background: #212121;
+}
+
+.menu {  /* Меню  */
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    margin-top: ;
+    list-style-type: none;
+}
+
+.menu .menu_link {  /* Цвет меню и шрифт */
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item { /* Разделитель */
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader { /* Второй блок */
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    height: 84px;
+}
+
+.subheader .subheader_logo { /* Логотип  */
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official { /* Надпись от логотипа */
+    margin-top: 6px;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.subheader .subheader_call { /* Звоните нам ежедневно */
+    text-align: right;
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone { /* номер */
+    display: block;
+    line-height: 12px;
+    text-align: right;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn{ /* кнопка Заказать звонок */
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo { /* картинка */
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header { /* большой текст заголовок 1 */
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader { /* меньше текст заголовок 2 */
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr { /* Текст под заголовками */
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn { /* Кнопка отправить заявку */
+    display: block;
+    margin: 118px auto 0 auto;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.advantages {
+    margin: 22px 38px 60px 38px;
+}
+
+.advantages .advantages_header { /* Преимущества */
+    display: inline-block;
+    margin: 30px 514px 0 513px;
+    text-align: center;
+    width: 115px;
+    height: 20px;
+    background: #000000;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+ .advantages .advantages_subheader {  /* 8 причин */
+     margin-top: 80px;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+ }
+
+ .advantages .advantages_wrapper {
+    margin-top: 22px;
+ }
+
+ .advantages .advantages_wrapper .advantages_item {
+     display: inline-block;
+     vertical-align: top;
+     margin: 0 30px;
+     width: 487px;
+ }
+
+ .advantages .advantages_wrapper .advantages_item .advantages_img {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    margin: 15px auto;
+ }
+span {
+    color: #1EACC7;
+}
+  
+ .advantages .advantages_wrapper .advantages_item .advantages_descr {
+    display: inline-block;
+    height: 150px;
+    width: 371px;
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0 120px;
+ }
+
+
+
+
